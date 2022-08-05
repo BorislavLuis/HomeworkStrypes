@@ -142,6 +142,7 @@
     <ClCompile Include="HM2_Task4.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="HM2_Task5.txt" />
     <Text Include="numbers.txt" />
     <Text Include="numbers2.txt" />
   </ItemGroup>

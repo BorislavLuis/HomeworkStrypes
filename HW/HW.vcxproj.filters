@@ -26,5 +26,8 @@
     <Text Include="numbers2.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="HM2_Task5.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
