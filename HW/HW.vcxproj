@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HW2_Task1.cpp" />
+    <ClCompile Include="HM2_Task3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="numbers.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
