@@ -15,12 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HM2_Task3.cpp">
+    <ClCompile Include="HM2_Task4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="numbers.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="numbers2.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
