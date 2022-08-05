@@ -32,7 +32,7 @@ int main()
 	printf("N3 = ");
 	scanf("%f", &a3);
 	
-	printf("%f", comparison(a1, a2, a3));
+	printf("%f\n", comparison(a1, a2, a3));
 
 	FILE* fp;
 	fp = fopen("numbers.txt", "r");
@@ -43,9 +43,7 @@ int main()
 	else
 	{
 		fscanf(fp, "%f%f%f", &a1,&a2,&a3);
-		printf("\n%f", a1);
-		printf("\n%f", a2);
-		printf("\n%f", a3);
+		printf("%f", comparison(a1, a2, a3));
 		fclose(fp);
 	}
 
