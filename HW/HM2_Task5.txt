@@ -1,0 +1,1 @@
+grep -Eo '[0-9]+' numbers.txt | sort -rn | head -n 1 - max number
