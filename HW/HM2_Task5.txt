@@ -1,1 +1,2 @@
-grep -Eo '[0-9]+' numbers.txt | sort -rn | head -n 1 - max number
+grep -Eo '[0-9]+' numbers.txt | sort -rn | head -n 1
+grep -Eo '[0-9]+' numbers.txt | sort -rn | tail -n 1
