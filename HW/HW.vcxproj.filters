@@ -15,19 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HM2_Task4.cpp">
+    <ClCompile Include="HW2_Task6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="numbers.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-    <Text Include="numbers2.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-    <Text Include="HM2_Task5.txt">
-      <Filter>Source Files</Filter>
-    </Text>
   </ItemGroup>
 </Project>
