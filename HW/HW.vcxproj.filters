@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HM3_Task2.c">
+    <ClCompile Include="HW3_Task3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
