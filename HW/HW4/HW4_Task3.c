@@ -24,5 +24,9 @@ int main()
     strncat(string3, string1, 5);
     printf("%d\n", strcmp(string1,string2));
     printf("%d\n", strcmp(string1, string3));
+    printf("%d\n", strncmp(string1, string3, 9));
+    char* string4;
+    string4 = strstr(string3, string1);
+    printf("%s\n", string4);
     return 0;
 }
