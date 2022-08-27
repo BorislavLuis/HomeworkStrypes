@@ -19,10 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HW5\HW5_Task3.c" />
+    <ClCompile Include="HW5\HW5_Task5.c" />
+    <ClCompile Include="HW5\HW5_Task5_funcs.c" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="HW1\Homework.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HW5\HW5_Task5_funcs.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

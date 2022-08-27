@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HW5\HW5_Task3.c">
+    <ClCompile Include="HW5\HW5_Task5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HW5\HW5_Task5_funcs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -23,5 +26,10 @@
     <Image Include="HW1\Homework.PNG">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HW5\HW5_Task5_funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
