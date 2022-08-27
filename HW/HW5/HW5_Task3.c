@@ -17,6 +17,10 @@ int main()
     int bp = 44;
     int cp = 99;
 
+    for (int i = 0; i < sizeof(int) * 8; i++)
+    {
+        if (cp >> i) printf("CP = %d\n", cp);
+    }
     printf("Max number is: %d\n", MAX(ap, bp, cp));
     printf("Min number is: %d\n", MIN(ap, bp, cp));
     printf("Set bit: %d\n", SETBIT(cp, 2));
