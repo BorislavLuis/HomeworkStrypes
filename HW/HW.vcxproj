@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HW67\HW67_Task1.c" />
+    <ClCompile Include="HW67\HW67_Task2.c" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="HW1\Homework.PNG" />
