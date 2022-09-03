@@ -2,6 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #endif
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 #define MAX_SIZE 50
 int arr[MAX_SIZE];

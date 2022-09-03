@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HW67\HW67_Task4.c" />
+    <Image Include="HW1\Homework.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="HW1\Homework.PNG" />
+    <ClCompile Include="HW67\HW67_Task8.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
