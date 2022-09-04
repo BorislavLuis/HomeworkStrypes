@@ -13,7 +13,7 @@ int main()
 	char* op2 = "55";
 	char res[50];
 	Add(op1, op2, res);
-	printf("%s", res);
+	printf("%s\n", res);
 	return 0;
 }
 

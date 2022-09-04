@@ -9,7 +9,7 @@ int main()
 {
 	char str[] = "This is a test";
 	Reverse(str);
-	printf("%s", str);
+	printf("%s\n", str);
 	return 0;
 }
 

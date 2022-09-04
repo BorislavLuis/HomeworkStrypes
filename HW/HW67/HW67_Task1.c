@@ -8,7 +8,7 @@ unsigned char CheckBit(unsigned int uValue);
 int main()
 {
 	unsigned int number = 0x80000000;
-	printf("The number has exactly one bit set (1-true,0-false): %c", CheckBit(number));
+	printf("The number has exactly one bit set (1-true,0-false): %c\n", CheckBit(number));
 	return 0;
 }
 

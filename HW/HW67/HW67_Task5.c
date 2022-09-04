@@ -72,7 +72,7 @@ int Pop()
 {
 	if (!isEmpty())
 	{
-		printf("Queue is empty! ");
+		printf("Queue is empty! \n");
 		return NULL;
 	}
 	int val = *poper;

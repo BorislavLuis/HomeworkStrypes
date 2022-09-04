@@ -14,7 +14,7 @@ int main()
 	char* pattern = "This are %s and %s -> %s. Also %s is here. Final test , does %s exist?";
 
 	SPRINTF(result, pattern, args);
-	printf("%s", result);
+	printf("%s\n", result);
 	return 0;
 }
 
