@@ -22,7 +22,7 @@
     <Image Include="HW1\Homework.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HW67\HW67_Task10.cpp" />
+    <ClCompile Include="HW67\HW67_Task9.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
