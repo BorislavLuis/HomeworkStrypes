@@ -32,24 +32,6 @@ int main()
 		if (i % 8 == 0 && i!=0) printf("\n");
 		printf("%x ", arr[i]);
 	}
-	//FILE* fp;
-	//char cwd[255];
-	//if (getcwd(cwd, sizeof(cwd)) != NULL) {
-	//	printf("Current working dir: %s\n", cwd);
-	//}
-	//else {
-	//	perror("getcwd() error");
-	//	return 1;
-	//}
-	//fp = fopen("HW67/Mono.pbm", "r");
-	//if (fp!=NULL)
-	//{
-	//	printf("Succes");
-	//	fscanf(fp,"%s" ,cwd);
-	//	fscanf(fp, "%s", cwd);
-	//}
-	//printf("\n%s\n", cwd);
-	
 	return 0;
 }
 
