@@ -20,7 +20,7 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HW67\HW67_Task7.c">
+    <ClCompile Include="HW67\HW67_Task3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
