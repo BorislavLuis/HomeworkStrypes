@@ -8,7 +8,7 @@
 
 int main()
 {
-	//srand(time(NULL));
+	srand(time(NULL));
 	unsigned int n,m,k;
     size_t arrSize = 0;
 	scanf("%u", &n);
@@ -35,7 +35,8 @@ int main()
     arr[m + n + k + 1] = '\0';
     arrSize = m + n + k + 1;
     printElements(arr, arrSize);
-    printf("%u", smallLettersCount(arr, arrSize));
+    printf("%u\n", smallLettersCount(arr, arrSize));
+    printf("%c\n", mostCommonSymbol(arr, arrSize));
 	free(arr);
 	return 0;
 }
