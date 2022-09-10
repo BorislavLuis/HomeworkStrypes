@@ -5,13 +5,27 @@
 
 void printElements(const char* arr, size_t sz)
 {
-
+    for (int i = 0; i < sz; i++)
+    {
+        printf("%c", arr[i]);
+    }
+    printf("\n");
 }
-void smallLettersCount(const char* arr, size_t sz)
+unsigned int smallLettersCount(const char* arr, size_t sz)
 {
-
+    unsigned int result=0;
+    for (int i = 0; i < sz; i++)
+    {
+        if (arr[i] >= 'a' && arr[i] <= 'z')
+        {
+            result++;
+        }
+    }
+    return result;
 }
-void mostCommonSymbol(const char* arr, size_t sz)
+char mostCommonSymbol(const char* arr, size_t sz)
 {
+    char result='a';
 
+    return result;
 }
