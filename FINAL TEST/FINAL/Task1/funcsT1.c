@@ -26,14 +26,27 @@ unsigned int smallLettersCount(const char* arr, size_t sz)
 char mostCommonSymbol(const char* arr, size_t sz)
 {
     char result='a';
+    char temp = 'a';
     unsigned int section = 0;
+    unsigned int ctr = 0;
+    unsigned int ctr2 = 0;
     bubleSort(arr, sz);
-    for (int i = 1; i < sz; i++)
+    for (int i = 0; i < sz; i++)
     {
-        if (arr[i - 1] == arr[i])
+        for (int k = 0; k < sz; k++)
         {
-            result = arr[i];
+            if (arr[i] == arr[k] && i!=k)
+            {
+                ctr++;
+                temp = arr[i];
+            }
         }
+        if (ctr2 < ctr)
+        {
+            ctr2 = ctr;
+            result = temp;
+        }
+        ctr = 0;
     }
     return result;
 }
