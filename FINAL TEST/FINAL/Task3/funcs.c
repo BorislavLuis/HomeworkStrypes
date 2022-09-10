@@ -15,7 +15,7 @@ void push(node_t** head, uint64_t value) {
 void printList(node_t* head) {
     node_t* current = head;
     while (current != NULL) {
-        printf("%lu\n", current->data);
+        printf("%llu\n", current->data);
         current = current->next;
     }
 }

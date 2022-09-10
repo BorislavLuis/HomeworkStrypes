@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Task1\funcsT1.c" />
+    <ClCompile Include="Task1\Task1.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Task1\funcsT1.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,13 +145,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Task3\funcs.c" />
-    <ClCompile Include="Task3\Task3.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Task3\funcs.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
