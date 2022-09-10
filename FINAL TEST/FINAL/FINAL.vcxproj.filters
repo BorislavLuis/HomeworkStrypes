@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Task2\Task2.c">
+    <ClCompile Include="Task3\Task3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Task3\funcs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Task3\funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
