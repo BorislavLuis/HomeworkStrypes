@@ -25,7 +25,7 @@ unsigned int smallLettersCount(const char* arr, size_t sz)
 }
 char mostCommonSymbol(const char* arr, size_t sz)
 {
-    char result='a';
+    char result=' ';
     char temp = 'a';
     unsigned int section = 0;
     unsigned int ctr = 0;
